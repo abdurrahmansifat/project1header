@@ -1,0 +1,63 @@
+</* common start */>
+body{
+	margin: 0;
+	padding: 0;
+}
+</* common end */>
+
+</* header start */>
+
+ header{
+ 	border: 1px solid black;
+ 	padding: 20px 0;
+ }
+.container{
+     width: 80%;
+     /*border: 1px solid black;*/
+     margin: 0 auto;
+     overflow: hidden;
+ }
+.logo{
+    width: 17%;
+    /*border: 1px solid black;*/
+    float: left;
+}
+.logo a{
+     display: block;
+}
+.logo a img{
+      width: 100%;
+}
+.menu{
+	margin-top: 8px;
+    width: 77%;
+    /*border: 1px solid black;*/
+    float: right;
+}
+.menu ul{
+      float: right;
+}
+.menu ul li{
+	  float: left;
+      list-style: none;
+      
+
+}
+.menu ul li a{
+	    font-family: sans-serif;
+	    font-style: 17px;
+	    font-weight: 400;
+	    color: #131313;
+	    display: block;
+        text-decoration: none;
+        padding: 0px 15px;
+}
+.menu ul li a:hover{
+         color: #BD2241;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+}
+
+</* header end */>
